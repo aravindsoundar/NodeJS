@@ -1,0 +1,30 @@
+<html>
+<body> 
+<form action = "http://127.0.0.1:8081/process_post2" method = "POST">
+First Name: <input type = "text" name = "first_name"> <br> <br>
+Last Name: <input type = "text" name = "last_name"> <br>
+Gender:<br>
+<div class="form-group" id="gender">
+<label class="radio-inline"><input type="radio" name="optradio" 
+value="male">Male</label>
+<label class="radio-inline"><input type="radio" name="optradio" 
+value="female">Female</label><br>
+Vehicle:<br>
+<input type="checkbox" id="vehicle1" name="vehicle" value="Bike">
+ <label for="vehicle1"> I have a bike</label><br>
+ <input type="checkbox" id="vehicle2" name="vehicle" value="Car">
+ <label for="vehicle2"> I have a car</label><br>
+ <input type="checkbox" id="vehicle3" name="vehicle" value="Boat">
+ <label for="vehicle3"> I have a boat</label><br>
+ <label for="dog-names">Choose a dog name:</label>
+ <select name="dog" id="dog-names">
+ <option value="rigatoni">Rigatoni</option>
+ <option value="dave">Dave</option>
+ <option value="pumpernickel">Pumpernickel</option>
+ <option value="reeses">Reeses</option>
+</select><br>
+<input type = "submit" value = "Submit">
+</div>
+</form>
+</body>
+</html>
